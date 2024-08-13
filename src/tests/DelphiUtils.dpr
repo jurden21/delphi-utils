@@ -12,7 +12,8 @@ uses
   DUnitX.Loggers.Xml.NUnit,
   DUnitX.TestFramework,
   IniUtilTestsUnit in 'IniUtilTestsUnit.pas',
-  IniUtilUnit in '..\IniUtilUnit.pas';
+  IniUtilUnit in '..\IniUtilUnit.pas',
+  RegistryUtilUnit in '..\RegistryUtilUnit.pas';
 
 var
   runner : ITestRunner;
