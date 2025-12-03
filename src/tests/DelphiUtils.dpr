@@ -13,7 +13,8 @@ uses
   DUnitX.TestFramework,
   IniUtilTestsUnit in 'IniUtilTestsUnit.pas',
   IniUtilUnit in '..\IniUtilUnit.pas',
-  RegistryUtilUnit in '..\RegistryUtilUnit.pas';
+  RegistryUtilUnit in '..\RegistryUtilUnit.pas',
+  IniUtilExtUnit in '..\IniUtilExtUnit.pas';
 
 var
   runner : ITestRunner;
