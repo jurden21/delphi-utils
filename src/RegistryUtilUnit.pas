@@ -3,7 +3,7 @@ unit RegistryUtilUnit;
 interface
 
 uses
-    System.Win.Registry, Winapi.Windows;
+    Winapi.Windows;
 
 type
     TRegistryUtil = class
@@ -17,6 +17,9 @@ type
     end;
 
 implementation
+
+uses
+    System.Win.Registry;
 
 { TRegistryUtil }
 
